@@ -34,19 +34,19 @@ export const TopBar: FC = () => {
     return (
         <Wrapper2>
             <InnerWrapper>
-                <CustomImg src ="../media/logo.png" />
+                <CustomImg src ="./media/logo.png" />
                 <div>
                     <ExpandedMenu />
                 </div>
                 <InputWrapper>
                     <CustomInput type="text" />
                     <input type="text" />
-                    <CustomImg src="../media/icons/search.png" />
+                    <CustomImg src="./media/icons/icons/search.png" />
                 </InputWrapper>
                     <RightIcons>
-                        <CustomImg src="./media/icons/house.png" />
-                        <CustomImg src="./media/icons/comments.png" />
-                        <CustomImg src="./media/icons/bell.png" />
+                        <CustomImg src="./media/icons/icons/house.png" />
+                        <CustomImg src="./media/icons/icons/comments.png" />
+                        <CustomImg src="./media/icons/icons/bell.png" />
                     </RightIcons>
             </InnerWrapper>
         </Wrapper2>
